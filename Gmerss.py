@@ -49,7 +49,7 @@ rssBase = {
     "柳神": {
         "url": "https://blog.liushen.fun/atom.xml",
         "type": "post",
-        "timeFormat": "%%Y-%m-%dT%H:%M:%S.%fZ",
+        "timeFormat": "%Y-%m-%dT%H:%M:%S.%fZ",
         "nameColor": "#48dbfb"
     },
     "CWorld": {
