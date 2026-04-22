@@ -1,2 +1,2 @@
-# Gmerss
-Gmerss is a RSS-Reader All in Github
+# 克喵的RSS订阅器
+

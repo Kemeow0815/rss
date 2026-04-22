@@ -1,67 +1,67 @@
 name: build Gmerss
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
+    workflow_dispatch:
+    schedule:
+        - cron: "0 */4 * * *"
 
 jobs:
-  build:
-    name: Reptile
-    runs-on: ubuntu-latest
-    permissions: write-all
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+    build:
+        name: Reptile
+        runs-on: ubuntu-latest
+        permissions: write-all
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v3
+            - name: Setup Pages
+              id: pages
+              uses: actions/configure-pages@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.8
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: 3.8
 
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install feedparser
+            - name: Install dependencies
+              run: |
+                  pip install --upgrade pip
+                  pip install feedparser
 
-      - name: Start reptile
-        run: |
-          python Gmerss.py
+            - name: Start reptile
+              run: |
+                  python Gmerss.py
 
-      - name: update html
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: docs
-          folder: docs/.
+            - name: update html
+              uses: JamesIves/github-pages-deploy-action@v4
+              with:
+                  branch: docs
+                  folder: docs/.
 
-      - name: sleep 3
-        run: |
-          sleep 3
+            - name: sleep 3
+              run: |
+                  sleep 3
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'docs/.'
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                  path: "docs/."
 
-  deploy:
-    name: Deploy to GitHub Pages
-    runs-on: ubuntu-latest
-    needs: build
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
-    concurrency:
-      group: "pages"
-      cancel-in-progress: false
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+    deploy:
+        name: Deploy to GitHub Pages
+        runs-on: ubuntu-latest
+        needs: build
+        permissions:
+            contents: write
+            pages: write
+            id-token: write
+        concurrency:
+            group: "pages"
+            cancel-in-progress: false
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        steps:
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v4
