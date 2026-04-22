@@ -129,7 +129,13 @@ function showList(jsonData){
 
         let title=document.createElement("span");
         title.setAttribute("class","listTitle");
-        title.innerHTML=jsonData[i]['title'];
+        
+        // 添加 NEW! 标签
+        let newBadge = "";
+        if(jsonData[i]['isNew']){
+            newBadge = '<span class="Label" style="background-color:#ff4757;margin-right:8px;font-size:12px;padding:2px 6px;">NEW!</span>';
+        }
+        title.innerHTML=newBadge+jsonData[i]['title'];
         center.appendChild(svg);
         center.appendChild(title);
 
