@@ -175,53 +175,39 @@ def send_email_notification(new_articles):
         msg["To"] = SMTP_CONFIG["receiver_email"]
 
         # 构建邮件内容
-        # 构建新文章列表HTML
-        articles_html = ""
+        html_content = f"""
+        <html>
+        <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+            <h2 style="color: #2c3e50;">📰 Gmerss RSS 更新通知</h2>
+            <p>发现 <strong>{len(new_articles)}</strong> 篇新文章：</p>
+            <div style="margin: 20px 0;">
+        """
+
         for article in new_articles:
             pub_time = datetime.fromtimestamp(article.get("published", 0)).strftime("%Y-%m-%d %H:%M")
-            articles_html += f"""
-                <div style="margin-bottom: 20px;">
-                    <div style="background-color: #f5f7fa; border-radius: 6px; padding: 15px; border: 1px solid #ebf0f5;">
-                        <div style="color: #f8db8f; font-weight: 500; margin-bottom: 8px;">@{article.get('name', '')}:</div>
-                        <div style="color: #333; line-height: 1.6; margin-bottom: 5px;">{article.get('title', '')}</div>
-                        <div style="color: #86909c; font-size: 12px; margin-top: 8px;">📅 {pub_time}</div>
-                    </div>
+            html_content += f"""
+                <div style="border-left: 4px solid #3498db; padding: 10px 15px; margin: 10px 0; background: #f8f9fa;">
+                    <h3 style="margin: 0 0 5px 0; color: #2c3e50;">{article.get('title', '')}</h3>
+                    <p style="margin: 5px 0; color: #7f8c8d; font-size: 14px;">
+                        👤 {article.get('name', '')} | 📅 {pub_time}
+                    </p>
+                    <a href="{article.get('link', '')}" style="color: #3498db; text-decoration: none;">阅读原文 →</a>
                 </div>
             """
 
-        html_content = f"""
-        <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
-            <div style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); overflow: hidden; background-color: #ffffff;">
-                <!-- 头部区域 -->
-                <div style="background-color: #f8db8f; padding: 20px; color: white; display: flex; align-items: center; justify-content: center; gap: 20px;">
-                    <div style="text-align: center;">
-                        <div style="font-size: 28px; font-weight: bold; display: flex; align-items: center; justify-content: center; gap: 10px;">
-                            <span style="font-size: 26px;">📰</span> Gmerss RSS
-                        </div>
-                        <div style="margin-top: 10px; font-size:16px;">
-                            发现 <strong>{len(new_articles)}</strong> 篇新文章！
-                        </div>
-                    </div>
-                    <img src="https://cdn.blog.saneko.me/Web/web_250913_194213.png" style="display:block; max-width:100px;">
-                </div>
-                <!-- 内容区域 -->
-                <div style="padding: 25px 20px;">
-                    <!-- 新文章列表 -->
-                    <div style="margin-bottom: 30px;">
-                        <div style="font-weight: bold; margin-bottom: 10px; color: #333; font-size: 16px;">新文章列表：</div>
-                        {articles_html}
-                    </div>
-                    <!-- 查看全部按钮 -->
-                    <div style="margin-bottom: 30px; text-align: center;">
-                        <a href="{FRONTEND_URL}" style="display: inline-block; background-color: #f8db8f; color: white; padding: 12px 30px; text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 16px;">查看全部文章</a>
-                    </div>
-                    <!-- 系统提示 -->
-                    <div style="color: #86909c; font-size: 12px; text-align: center; padding-top: 15px; border-top: 1px solid #ebf0f5;">
-                        此邮件由 Gmerss RSS 自动发送 | {datetime.now().strftime("%Y-%m-%d %H:%M:%S")} | 请不要回复此邮件
-                    </div>
-                </div>
+        html_content += f"""
             </div>
-        </div>
+            <p style="margin-top: 20px;">
+                <a href="{FRONTEND_URL}" style="background: #3498db; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">
+                    查看全部文章
+                </a>
+            </p>
+            <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;">
+            <p style="color: #95a5a6; font-size: 12px;">
+                此邮件由 Gmerss RSS 自动发送 | {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+            </p>
+        </body>
+        </html>
         """
 
         msg.attach(MIMEText(html_content, "html", "utf-8"))
