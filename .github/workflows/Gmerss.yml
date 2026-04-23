@@ -13,6 +13,8 @@ jobs:
         steps:
             - name: Checkout
               uses: actions/checkout@v3
+              with:
+                  fetch-depth: 0
 
             - name: Setup Pages
               id: pages
@@ -38,6 +40,14 @@ jobs:
                   SMTP_RECEIVER_EMAIL: ${{ secrets.SMTP_RECEIVER_EMAIL }}
               run: |
                   python Gmerss.py
+
+            - name: Commit data changes
+              run: |
+                  git config --local user.email "action@github.com"
+                  git config --local user.name "GitHub Action"
+                  git add data/
+                  git diff --staged --quiet || git commit -m "Update RSS history data [skip ci]"
+                  git push || echo "No changes to push"
 
             - name: update html
               uses: JamesIves/github-pages-deploy-action@v4
