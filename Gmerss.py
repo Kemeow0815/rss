@@ -97,9 +97,13 @@ def load_history():
     if os.path.exists(HISTORY_FILE):
         try:
             with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
+                history = json.load(f)
+                print(f"====== Loaded {len(history)} articles from history ======")
+                return history
         except Exception as e:
             print(f"Warning: Failed to load history: {e}")
+    else:
+        print(f"====== History file not found: {HISTORY_FILE} ======")
     return []
 
 
@@ -141,9 +145,12 @@ def get_article_id(article):
 def find_new_articles(current_articles, history_articles):
     """找出新增的文章"""
     history_ids = {get_article_id(a) for a in history_articles}
+    print(f"====== History contains {len(history_ids)} unique articles ======")
     new_articles = []
     for article in current_articles:
-        if get_article_id(article) not in history_ids:
+        article_id = get_article_id(article)
+        if article_id not in history_ids:
+            print(f"====== New article found: {article.get('title', 'unknown')[:50]}... ======")
             article["isNew"] = True
             new_articles.append(article)
     return new_articles
@@ -305,8 +312,8 @@ def main():
     new_articles = find_new_articles(rssAll[1:], history_articles)  # 跳过 info 项
 
     # 如果有新文章，移除上次新文章的 NEW! 标签，并为新文章添加标记
-    if new_articles:
-        print(f"====== Found {len(new_articles)} new articles ======")
+    if new_articles and len(new_articles) > 0:
+        print(f"====== Found {len(new_articles)} new articles, sending email... ======")
         # 移除上次新文章的 NEW! 标签
         rssAll[1:] = remove_old_new_tags(rssAll[1:], previous_new_articles)
         # 为本次新文章添加标记
@@ -316,7 +323,7 @@ def main():
         # 发送邮件通知
         send_email_notification(new_articles)
     else:
-        print("====== No new articles found ======")
+        print("====== No new articles found, skip email ======")
         # 没有新文章，保留上次的 NEW! 标签
         for article in rssAll[1:]:
             if get_article_id(article) in {get_article_id(a) for a in previous_new_articles}:
