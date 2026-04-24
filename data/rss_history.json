@@ -17,15 +17,13 @@
     "name": "二叉树树",
     "title": "俗话都说项目写久了会变成史山...今天我们来铲史...",
     "link": "https://2x.nz/posts/improve-dev-speed/",
-    "published": 1776593145,
-    "isNew": false
+    "published": 1776593145
   },
   {
     "name": "二叉树树",
     "title": "将你的Linux硬盘映射到Windows？",
     "link": "https://2x.nz/posts/sshfs/",
-    "published": 1776470400,
-    "isNew": false
+    "published": 1776470400
   },
   {
     "name": "张洪heo",
@@ -38,22 +36,19 @@
     "name": "闻絮语",
     "title": "热搜页面（Nuxt版本）",
     "link": "https://www.wxuyu.top/2026/04/hotnuxtpage",
-    "published": 1776060000,
-    "isNew": false
+    "published": 1776060000
   },
   {
     "name": "二叉树树",
     "title": "让我们自建一个自己的CDN！",
     "link": "https://2x.nz/posts/self-host-cdn/",
-    "published": 1775924501,
-    "isNew": false
+    "published": 1775924501
   },
   {
     "name": "闻絮语",
     "title": "说说页面（Nuxt版本）",
     "link": "https://www.wxuyu.top/2026/04/essaynuxtpage",
-    "published": 1775887200,
-    "isNew": false
+    "published": 1775887200
   },
   {
     "name": "张洪heo",
@@ -73,28 +68,24 @@
     "name": "二叉树树",
     "title": "WTF？免费优质线路2c4g VPS！免费GLM模型无限用！免费Opus 4.6！",
     "link": "https://2x.nz/posts/what-the-fuck-claw-replit/",
-    "published": 1775413040,
-    "isNew": false
+    "published": 1775413040
   },
   {
     "name": "柳神",
     "title": "ChronoFrame - 一款优雅的瀑布流相册系统",
     "link": "https://blog.liushen.fun/posts/381a41ac/",
-    "published": 1775318400,
-    "isNew": false
+    "published": 1775318400
   },
   {
     "name": "二叉树树",
     "title": "握草，用浏览器检测你的NAT类型？！",
     "link": "https://2x.nz/posts/check-nat-webrtc/",
-    "published": 1775310361,
-    "isNew": false
+    "published": 1775310361
   },
   {
     "name": "Saneko",
     "title": "忘记关闭自动扣费的教训",
     "link": "https://saneko.me/blog/316b206330f9",
-    "published": 1775207048,
-    "isNew": false
+    "published": 1775207048
   }
 ]
