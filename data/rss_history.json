@@ -1,10 +1,17 @@
 [
   {
     "name": "二叉树树",
+    "title": "手把手教你跑一个二次元AI老婆！另附自然语言生图教程！",
+    "link": "https://2x.nz/posts/ai-wife/",
+    "published": 1777198825,
+    "isNew": true
+  },
+  {
+    "name": "二叉树树",
     "title": "网站全面升级为纯Svelte！好处都有啥？都踩了哪些坑？",
     "link": "https://2x.nz/posts/astro-to-svelte/",
     "published": 1776988800,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "张洪heo",
@@ -65,12 +72,6 @@
     "title": "我将我最初接触 Vibe Coding 的飞机大战重写了，飞机大战2.0登场",
     "link": "https://blog.zhheo.com/p/ulmdpqpw.html",
     "published": 1775702331
-  },
-  {
-    "name": "二叉树树",
-    "title": "WTF？免费优质线路2c4g VPS！免费GLM模型无限用！免费Opus 4.6！",
-    "link": "https://2x.nz/posts/what-the-fuck-claw-replit/",
-    "published": 1775413040
   },
   {
     "name": "柳神",
