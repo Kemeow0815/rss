@@ -1,9 +1,16 @@
 [
   {
-    "name": "二叉树树",
-    "title": "手把手教你跑一个二次元AI老婆！另附自然语言生图教程！",
-    "link": "https://2x.nz/posts/ai-wife/",
-    "published": 1777198825,
+    "name": "张洪heo",
+    "title": "洪绘切图发布！如何将一个图片平均切图？按照固定距离或者网格切图？",
+    "link": "https://blog.zhheo.com/p/zg5upnsy.html",
+    "published": 1777272873,
+    "isNew": true
+  },
+  {
+    "name": "张洪heo",
+    "title": "让UPS接入OpenWrt软路由，创建UPS NUT服务器教程",
+    "link": "https://blog.zhheo.com/p/7rlq7eyt.html",
+    "published": 1777212763,
     "isNew": true
   }
 ]
