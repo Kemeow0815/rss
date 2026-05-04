@@ -46,7 +46,7 @@ rssBase = {
         "nameColor": "#a4244b"
     },
     "二叉树树": {
-        "url": "https://2x.nz/rss.xml",
+        "url": "https:///blog.2x.nz/rss.xml",
         "type": "post",
         "timeFormat": "%a, %d %b %Y %H:%M:%S GMT",
         "nameColor": "#feca57"
