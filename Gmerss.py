@@ -46,7 +46,7 @@ rssBase = {
         "nameColor": "#a4244b"
     },
     "二叉树树": {
-        "url": "https:///blog.2x.nz/rss.xml",
+        "url": "https:///2x.nz/rss.xml",
         "type": "post",
         "timeFormat": "%a, %d %b %Y %H:%M:%S GMT",
         "nameColor": "#feca57"
@@ -80,6 +80,12 @@ rssBase = {
         "type": "post",
         "timeFormat": "%Y-%m-%dT%H:%M:%SZ",
         "nameColor": "#f39c12"
+    },
+    "iMaeGoo’s Blog": {
+        "url": "https://www.imaegoo.com/atom.xml",
+        "type": "post",
+        "timeFormat": "%Y-%m-%dT%H:%M:%SZ",
+        "nameColor": "##9EE900"
     },
 }
 ######################################################################################
