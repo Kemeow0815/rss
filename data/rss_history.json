@@ -1,10 +1,17 @@
 [
   {
     "name": "张洪heo",
+    "title": "如何判断一个文章是不是AI写的？图片、视频、文章AI检测方法",
+    "link": "https://blog.zhheo.com/p/56yusy1w.html",
+    "published": 1780039423,
+    "isNew": true
+  },
+  {
+    "name": "张洪heo",
     "title": "分享一下我现在都在使用哪些AI工具，以及我的的AI生产力状况",
     "link": "https://blog.zhheo.com/p/ug37qbz9.html",
     "published": 1779772717,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "张洪heo",
@@ -23,12 +30,6 @@
     "title": "为啥别人用Image2做的图那么好看？我的却特别丑？如何模仿别人的风格作图？",
     "link": "https://blog.zhheo.com/p/viqyx0td.html",
     "published": 1779332533
-  },
-  {
-    "name": "张洪heo",
-    "title": "如何给自己创作的歌曲生成歌词文件？手打逐字歌词lrc文件教程",
-    "link": "https://blog.zhheo.com/p/rdlrcfqe.html",
-    "published": 1779165447
   },
   {
     "name": "柳神",
