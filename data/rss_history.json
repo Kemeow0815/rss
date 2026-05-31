@@ -1,10 +1,17 @@
 [
   {
+    "name": "柳神",
+    "title": "建站四年，从Hexo换到Astro",
+    "link": "https://blog.liushen.fun/posts/acf06c11/",
+    "published": 1780251021,
+    "isNew": true
+  },
+  {
     "name": "张洪heo",
     "title": "如何判断一个文章是不是AI写的？图片、视频、文章AI检测方法",
     "link": "https://blog.zhheo.com/p/56yusy1w.html",
     "published": 1780039423,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "张洪heo",
