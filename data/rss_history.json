@@ -1,10 +1,17 @@
 [
   {
     "name": "张洪heo",
+    "title": "OpenClaw Workboard 功能上手：让 Agent 自己干活，你只管盯进度",
+    "link": "https://blog.zhheo.com/p/s3li91qz.html",
+    "published": 1782883200,
+    "isNew": true
+  },
+  {
+    "name": "张洪heo",
     "title": "小米平板8Pro上手：便宜且流畅的好平板，安卓平板的高效令人印象深刻",
     "link": "https://blog.zhheo.com/p/fadgmjtw.html",
     "published": 1782701148,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "张洪heo",
@@ -29,11 +36,5 @@
     "title": "vibe-coding个人实践",
     "link": "https://blog.liushen.fun/posts/67261b47/",
     "published": 1781456400
-  },
-  {
-    "name": "张洪heo",
-    "title": "HeoSticker3D发布：3D形态的Heo表情，个人免费使用",
-    "link": "https://blog.zhheo.com/p/mjpbdtsh.html",
-    "published": 1781155403
   }
 ]
