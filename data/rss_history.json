@@ -1,10 +1,17 @@
 [
   {
     "name": "张洪heo",
+    "title": "混元hy3模型上手：腾讯送了云函数个人版6个月，怎么才能用上",
+    "link": "https://blog.zhheo.com/p/2orxjo9r.html",
+    "published": 1783480134,
+    "isNew": true
+  },
+  {
+    "name": "张洪heo",
     "title": "给OpenClaw加上rm删除保护：防止AI误删你的整个电脑",
     "link": "https://blog.zhheo.com/p/owiixgnk.html",
     "published": 1783422360,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "张洪heo",
@@ -23,12 +30,6 @@
     "title": "OpenClaw Workboard 功能上手：让 Agent 自己干活，你只管盯进度",
     "link": "https://blog.zhheo.com/p/s3li91qz.html",
     "published": 1782883200
-  },
-  {
-    "name": "张洪heo",
-    "title": "小米平板8Pro上手：便宜且流畅的好平板，安卓平板的高效令人印象深刻",
-    "link": "https://blog.zhheo.com/p/fadgmjtw.html",
-    "published": 1782701148
   },
   {
     "name": "柳神",
