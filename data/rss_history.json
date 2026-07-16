@@ -1,10 +1,17 @@
 [
   {
+    "name": "张洪heo",
+    "title": "OpenClaw记忆系统升级：从memory-core到memory-lancedb-pro的迁移与配置",
+    "link": "https://blog.zhheo.com/p/0kl9erod.html",
+    "published": 1784175473,
+    "isNew": true
+  },
+  {
     "name": "柳神",
     "title": "Cloudflare/Vercel项目推荐(6)",
     "link": "https://blog.liushen.fun/posts/e4a369fc/",
     "published": 1783872720,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "张洪heo",
@@ -29,11 +36,5 @@
     "title": "美团longcat上手：缓存免费，主打便宜，就是速度太慢，思考时间looooong",
     "link": "https://blog.zhheo.com/p/e1l2qom9.html",
     "published": 1782958207
-  },
-  {
-    "name": "张洪heo",
-    "title": "OpenClaw Workboard 功能上手：让 Agent 自己干活，你只管盯进度",
-    "link": "https://blog.zhheo.com/p/s3li91qz.html",
-    "published": 1782883200
   }
 ]
