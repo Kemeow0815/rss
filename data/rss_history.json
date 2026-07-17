@@ -1,6 +1,13 @@
 [
   {
     "name": "张洪heo",
+    "title": "给 SearXNG 接入豆包搜索，解决 OpenClaw 信源难题",
+    "link": "https://blog.zhheo.com/p/1ffvrvyd.html",
+    "published": 1784264897,
+    "isNew": true
+  },
+  {
+    "name": "张洪heo",
     "title": "OpenClaw记忆系统升级：从memory-core到memory-lancedb-pro的迁移与配置",
     "link": "https://blog.zhheo.com/p/0kl9erod.html",
     "published": 1784175473
@@ -10,7 +17,7 @@
     "title": "screenpipe：开源本地的 AI 记忆引擎，让电脑更懂你",
     "link": "https://blog.zhheo.com/p/94w0byur.html",
     "published": 1784131200,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "柳神",
@@ -29,11 +36,5 @@
     "title": "给OpenClaw加上rm删除保护：防止AI误删你的整个电脑",
     "link": "https://blog.zhheo.com/p/owiixgnk.html",
     "published": 1783422360
-  },
-  {
-    "name": "张洪heo",
-    "title": "豆言豆语Skill发布：让AI学会豆包的毒舌说话风格",
-    "link": "https://blog.zhheo.com/p/ojxzvqar.html",
-    "published": 1782990288
   }
 ]
