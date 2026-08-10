@@ -1,10 +1,17 @@
 [
   {
+    "name": "张洪heo",
+    "title": "分享一下我最近制作的一些AI音乐，以及解决唱歌错字和音质的一些小技巧",
+    "link": "https://blog.zhheo.com/p/4c5g2me1.html",
+    "published": 1786336007,
+    "isNew": true
+  },
+  {
     "name": "闻絮语",
     "title": "朋友圈大改",
     "link": "https://www.wxuyu.top/2026/08/circlepage",
     "published": 1786168800,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "张洪heo",
@@ -35,12 +42,6 @@
     "title": "报错回顾：给OpenClaw添加错误行为记忆机制，让自己写的skill不断成长",
     "link": "https://blog.zhheo.com/p/0x4n7juy.html",
     "published": 1785291657
-  },
-  {
-    "name": "张洪heo",
-    "title": "腾讯miora上手：设计师又又又失业的一集？",
-    "link": "https://blog.zhheo.com/p/lw65vj43.html",
-    "published": 1784777476
   },
   {
     "name": "柳神",
