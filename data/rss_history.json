@@ -1,17 +1,23 @@
 [
   {
     "name": "张洪heo",
+    "title": "洪绘压图网页版上线，这下可以随时随地在线压缩图片了",
+    "link": "https://blog.zhheo.com/p/tbp0pls8.html",
+    "published": 1786344039,
+    "isNew": true
+  },
+  {
+    "name": "张洪heo",
     "title": "分享一下我最近制作的一些AI音乐，以及解决唱歌错字和音质的一些小技巧",
     "link": "https://blog.zhheo.com/p/4c5g2me1.html",
     "published": 1786336007,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "闻絮语",
     "title": "朋友圈大改",
     "link": "https://www.wxuyu.top/2026/08/circlepage",
-    "published": 1786168800,
-    "isNew": false
+    "published": 1786168800
   },
   {
     "name": "张洪heo",
@@ -36,12 +42,6 @@
     "title": "WebMCP适配教程：为浏览器AI预备好，让网页向 AI 提供工具，本博客已支持",
     "link": "https://blog.zhheo.com/p/z1fmm8ee.html",
     "published": 1785988560
-  },
-  {
-    "name": "张洪heo",
-    "title": "报错回顾：给OpenClaw添加错误行为记忆机制，让自己写的skill不断成长",
-    "link": "https://blog.zhheo.com/p/0x4n7juy.html",
-    "published": 1785291657
   },
   {
     "name": "柳神",
