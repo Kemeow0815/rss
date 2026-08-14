@@ -1,17 +1,23 @@
 [
   {
     "name": "张洪heo",
+    "title": "给DeepSeek-V4-Flash借一双眼睛：ZCode视觉子Agent方案",
+    "link": "https://blog.zhheo.com/p/3gr7k8xj.html",
+    "published": 1786700793,
+    "isNew": true
+  },
+  {
+    "name": "张洪heo",
     "title": "Mole Mac 上手：界面精美，优秀好用的Mac清理工具",
     "link": "https://blog.zhheo.com/p/lgodvfdh.html",
     "published": 1786695739,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "张洪heo",
     "title": "Agentation 油猴脚本：让AI指哪改哪,配合 Claude Code 的开发神器",
     "link": "https://blog.zhheo.com/p/wh8h2uop.html",
-    "published": 1786501904,
-    "isNew": false
+    "published": 1786501904
   },
   {
     "name": "张洪heo",
@@ -30,12 +36,6 @@
     "title": "朋友圈大改",
     "link": "https://www.wxuyu.top/2026/08/circlepage",
     "published": 1786168800
-  },
-  {
-    "name": "张洪heo",
-    "title": "洪绘敲木鱼支持“竹知了”模式了，可以自定义音效的电子竹知了App",
-    "link": "https://blog.zhheo.com/p/0zlnja8m.html",
-    "published": 1786093120
   },
   {
     "name": "柳神",
