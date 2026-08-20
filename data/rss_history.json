@@ -1,10 +1,17 @@
 [
   {
     "name": "张洪heo",
+    "title": "个人小项目vibecoding方案推荐：opencode spark 1.2 和 zcode",
+    "link": "https://blog.zhheo.com/p/1bwuf82b.html",
+    "published": 1787202332,
+    "isNew": true
+  },
+  {
+    "name": "张洪heo",
     "title": "分享一下博客的全新聚合搜索",
     "link": "https://blog.zhheo.com/p/mgii3qy1.html",
     "published": 1787118939,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "张洪heo",
@@ -23,12 +30,6 @@
     "title": "Agentation 油猴脚本：让AI指哪改哪,配合 Claude Code 的开发神器",
     "link": "https://blog.zhheo.com/p/wh8h2uop.html",
     "published": 1786501904
-  },
-  {
-    "name": "张洪heo",
-    "title": "洪绘压图网页版上线，这下可以随时随地在线压缩图片了",
-    "link": "https://blog.zhheo.com/p/tbp0pls8.html",
-    "published": 1786344039
   },
   {
     "name": "闻絮语",
