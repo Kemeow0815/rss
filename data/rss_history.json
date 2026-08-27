@@ -1,17 +1,23 @@
 [
   {
     "name": "张洪heo",
+    "title": "BrowserSkill上手：让AI接入浏览器，还能录制动作教它学习",
+    "link": "https://blog.zhheo.com/p/q6b3774w.html",
+    "published": 1787826965,
+    "isNew": true
+  },
+  {
+    "name": "张洪heo",
     "title": "我与我的 OpenClaw 凉透了焦虑和解了",
     "link": "https://blog.zhheo.com/p/npa0251o.html",
     "published": 1787800404,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "张洪heo",
     "title": "ntfsmac 上手：不关 SIP 让 Mac 读写 NTFS 和 ext 硬盘",
     "link": "https://blog.zhheo.com/p/ucrz6hhg.html",
-    "published": 1787549502,
-    "isNew": false
+    "published": 1787549502
   },
   {
     "name": "张洪heo",
@@ -24,12 +30,6 @@
     "title": "分享一下博客的全新聚合搜索",
     "link": "https://blog.zhheo.com/p/mgii3qy1.html",
     "published": 1787118939
-  },
-  {
-    "name": "张洪heo",
-    "title": "给DeepSeek-V4-Flash借一双眼睛：ZCode视觉子Agent方案",
-    "link": "https://blog.zhheo.com/p/3gr7k8xj.html",
-    "published": 1786700793
   },
   {
     "name": "闻絮语",
