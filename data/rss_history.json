@@ -1,10 +1,17 @@
 [
   {
     "name": "张洪heo",
+    "title": "我与我的 OpenClaw 凉透了焦虑和解了",
+    "link": "https://blog.zhheo.com/p/npa0251o.html",
+    "published": 1787800404,
+    "isNew": true
+  },
+  {
+    "name": "张洪heo",
     "title": "ntfsmac 上手：不关 SIP 让 Mac 读写 NTFS 和 ext 硬盘",
     "link": "https://blog.zhheo.com/p/ucrz6hhg.html",
     "published": 1787549502,
-    "isNew": true
+    "isNew": false
   },
   {
     "name": "张洪heo",
@@ -23,12 +30,6 @@
     "title": "给DeepSeek-V4-Flash借一双眼睛：ZCode视觉子Agent方案",
     "link": "https://blog.zhheo.com/p/3gr7k8xj.html",
     "published": 1786700793
-  },
-  {
-    "name": "张洪heo",
-    "title": "Mole Mac 上手：界面精美，优秀好用的Mac清理工具",
-    "link": "https://blog.zhheo.com/p/lgodvfdh.html",
-    "published": 1786695739
   },
   {
     "name": "闻絮语",
